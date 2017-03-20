@@ -11,7 +11,7 @@ Assim como se faz necessário a construção do projeto com as devidas depencên
 1º Execulta-se o Servidor2 do node2;
 2º Execulta-se o Cliente do node1;
 
-####veja a execulsão no cliente
+### veja a execulsão no cliente
 Que solicita a inserção de nome que será atribuido ao objeto pessoa e posteriormente encaminha o objeto pessoa para o node2 que insere no banco de dados
 postgres e mysql de forma synchronized para garantir a integridade dos dados.
 
@@ -20,7 +20,7 @@ De modo a encaminhar novamente caso não seja bem sucedida.
 solicitando ao usuario que envie novamente ou nao.
 Enviar novamente: \n 1 - sim \n 0 - não"
 
-#### e digiete conforme o menu (1) para execultar novamente ou (0) para encerrar;
+### e digiete conforme o menu (1) para execultar novamente ou (0) para encerrar;
 
 ------------ 
  Menu 
@@ -29,10 +29,11 @@ Enviar novamente: \n 1 - sim \n 0 - não"
 Digite: 
 
 
-##### Caso não possua um ou outro gerenciador de banco de dado instalado se faz necessário a instalação dos mesmos o mudanças no código da classe Servidor2 em node2 no método main no while procure:
+### Caso não possua um ou outro gerenciador de banco de dado instalado se faz necessário a instalação dos mesmos o mudanças no código da classe Servidor2 em node2 no método main no while procure:
 Tal trexo de código para não inserir no mysql fazendo os ajuste abaixo descritos.
 
 /*
+
   comente esta linha de código para não inserção no banco mysql: 
   boolean cadastrouMy = insertMysql(pessoa);
             
@@ -41,9 +42,10 @@ Tal trexo de código para não inserir no mysql fazendo os ajuste abaixo descrit
             
 */ 
 
-##### Ou o trexo de código que se segue para não inserir no banco de dados postgresql fazendo os ajuste abaixo descritos.
+### Ou o trexo de código que se segue para não inserir no banco de dados postgresql fazendo os ajuste abaixo descritos.
 
 /*
+
   comente esta linha de código para não inserção no banco postgresql: 
   boolean cadastrouPost = insertPostgres(pessoa);
             

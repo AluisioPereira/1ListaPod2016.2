@@ -4,7 +4,7 @@
 2º Execulta-se o Servidor2 do node2;
 3º Execulta-se o Servidor1 do node1;
 
-####veja a execulsão
+###veja a execulsão
  
 Queenviar para o node 2 que enviar para o node3 os valores de x e y:
 e o node3 realiza a operação 

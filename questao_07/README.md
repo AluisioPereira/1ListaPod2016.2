@@ -4,7 +4,7 @@
 2º Execulta-se o Servidor2 do node2;
 3º Execulta-se o Servidor1 do node1;
 
-####veja a execulsão
+### veja a execulsão
  
 
 
